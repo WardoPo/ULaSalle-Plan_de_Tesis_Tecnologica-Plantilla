@@ -1,0 +1,36 @@
+\documentclass[12]{plan_tesis}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, total={15.5cm, 24.7cm}]{geometry}
+
+\usepackage{appendix}
+\usepackage{graphicx}
+\graphicspath{ {Imagenes/} }
+
+\usepackage{xcolor}
+
+\title{[TITULO DEL  INFORME DE INVESTIGACIÓN]}
+\author{WardoPo}
+\date{March 2021}
+
+\begin{document}
+
+\input{portada}
+
+\begin{resumen}
+El resumen posee un conjunto de elementos los cuales dan una visión clara del trabajo descrito en no más de 120 palabras en un solo párrafo.  
+
+La forma de redacción es en pasado impersonal, por ejemplo: una vez que recabamos la información (esta forma es incorrecta), en vez de ello se debe decir: una vez que se recabó la información (estas la forma correcta).  
+\end{resumen}
+
+\input{Capítulos/Planteamiento_Proyecto}
+\input{Capítulos/Revision_Fundamentación_Teórica}
+\input{Capítulos/Plan_Gestión_Proyecto}
+
+\bibliographystyle{IEEEtran}
+\bibliography{bibliografia}
+
+\input{Anexos/Ejemplo}
+
+\end{document}
