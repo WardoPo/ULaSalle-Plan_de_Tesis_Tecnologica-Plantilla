@@ -2,6 +2,7 @@
 \ProvidesClass{plan_tesis}[2021/03/28 Clase para Informe de Investigación creado por WardoPo]
 
 \LoadClass{report}
+\linespread{1.5}
 
 \usepackage[spanish]{babel}
 \usepackage{titlesec}
